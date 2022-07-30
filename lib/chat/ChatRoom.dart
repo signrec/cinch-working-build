@@ -172,7 +172,7 @@ class ChatRoom extends StatelessWidget {
                               onPressed: () => getImage(),
                               icon: const Icon(Icons.photo),
                             ),
-                            hintText: "Send Message",
+                            hintText: "Send Messages",
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(8),
                             )),
