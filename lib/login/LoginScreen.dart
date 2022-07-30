@@ -2,6 +2,7 @@ import 'package:cinch/login/CreateAccount.dart';
 import 'package:cinch/login/Methods.dart';
 import 'package:cinch/login/ResetPassword.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 import '../chat/HomeScreen.dart';
 
@@ -69,9 +70,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                   ),
-                  SizedBox(
-                    height: size.height / 10,
+                  Lottie.asset(
+                    'assets/welcome.json',
+                    width: 300,
+                    height: 300,
                   ),
+                  // SizedBox(
+                  //   height: size.height / 10,
+                  // ),
                   Container(
                     width: size.width,
                     alignment: Alignment.center,
